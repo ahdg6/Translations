@@ -1,0 +1,44 @@
+# 通用信息
+
+general:
+  nametag:
+    prefix: '&8[&6EpicAnchors&8]'
+  word:
+    infinite: '无限的'
+
+# 内部信息
+
+interface:
+  button:
+    addtimewithxp: '&a用经验来延长 30 分钟'
+    addtimewithxplore: '&7花费: &a%cost% 个等级'
+    addtimewitheconomy: '&a用经济来延长 30 分支'
+    addtimewitheconomylore: '&7花费: &a$%cost%'
+
+    cancelDestroy: '&4取消'
+    cancelDestroyLore: ''
+    confirmDestroy: '&2确认'
+    confirmDestroyLore: '&a一个还有剩余时间的加载锚将被丢弃。'
+    confirmDestroyLoreNoDrops: '&4在此加载锚的剩余时间将会丢失!'
+
+    infinite: '&c无法升级为一个无限加载锚!'
+  anchor:
+    title: '区块加载锚'
+    smalltitle: '&e区块锚'
+
+# 命令信息
+
+command:
+  give:
+    success: '&7您已被给予一个区块加载锚。'
+  show:
+    start: '&7锚可视化 &2已被开启。'
+    stop: '&7锚可视化 &c已被关闭。'
+
+# 事件信息
+
+event:
+  general:
+    nopermission: '&c您没有权限来那么做。'
+  upgrade:
+    cannotafford: '&c您没有足够的钱来支付锚的使用。'
